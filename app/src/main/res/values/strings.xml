@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">showmovies</string>
+    <string name="show_movies">ShowMovies</string>
+    <string name="hint_email">youremail@domain.com</string>
+    <string name="email">Email</string>
+    <string name="log_in">Ingresar</string>
 </resources>
