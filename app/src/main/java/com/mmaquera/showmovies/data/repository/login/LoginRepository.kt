@@ -1,5 +1,7 @@
 package com.mmaquera.showmovies.data.repository.login
 
+import com.mmaquera.showmovies.domian.Credentials
+
 interface LoginRepository{
-    fun authenticate(email: String)
+    suspend fun authenticate(email: String) : Credentials
 }
