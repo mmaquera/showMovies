@@ -4,7 +4,7 @@ package com.mmaquera.showmovies.usecase
 import com.mmaquera.showmovies.data.repository.login.LoginRepositoryImp
 import com.mmaquera.showmovies.data.storage.Constants
 import com.mmaquera.showmovies.data.storage.Storage
-import com.mmaquera.showmovies.domian.Authentication
+import com.mmaquera.showmovies.domain.Authentication
 import javax.inject.Inject
 
 class LoginUserCase @Inject constructor(

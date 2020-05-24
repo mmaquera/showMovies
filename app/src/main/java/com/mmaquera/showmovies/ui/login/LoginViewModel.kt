@@ -4,7 +4,7 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.mmaquera.showmovies.domian.Authentication
+import com.mmaquera.showmovies.domain.Authentication
 import com.mmaquera.showmovies.usecase.LoginUserCase
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch

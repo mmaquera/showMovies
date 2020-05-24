@@ -1,4 +1,4 @@
-package com.mmaquera.showmovies.domian
+package com.mmaquera.showmovies.domain
 
 sealed class Authentication{
 
