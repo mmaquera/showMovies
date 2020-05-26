@@ -6,7 +6,11 @@ import javax.inject.Inject
 
 class MovieRepositoryImp @Inject constructor (private val apiService: ApiService): MovieRepository{
 
-    override suspend fun getMovies(): List<Movie> {
-        return apiService.getMovies()
+    override suspend fun getMovies(page: Int, sort: String): List<Movie> {
+        return apiService.getMovies(page, sort)
+    }
+
+    override suspend fun getMoviesFilter(query: String, sort: String, page: Int): List<Movie> {
+        return apiService.getMoviesFilter(query, sort, page)
     }
 }

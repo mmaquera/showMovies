@@ -9,7 +9,7 @@ import androidx.lifecycle.ViewModelProvider
 import com.mmaquera.showmovies.R
 import com.mmaquera.showmovies.application.AppApplication
 import com.mmaquera.showmovies.databinding.ActivityLoginBinding
-import com.mmaquera.showmovies.ui.main.MainActivity
+import com.mmaquera.showmovies.ui.main.view.MainActivity
 import javax.inject.Inject
 
 class LoginActivity : AppCompatActivity() {

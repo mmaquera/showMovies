@@ -4,7 +4,11 @@
     <string name="hint_email">youremail@domain.com</string>
     <string name="email">Email</string>
     <string name="log_in">Ingresar</string>
-
+    <string name="movies">Peliculas</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="search">Buscar</string>
+    <string name="title">Titulo</string>
+    <string name="date">Fecha</string>
+    <string name="popularity">Popularidad</string>
 </resources>

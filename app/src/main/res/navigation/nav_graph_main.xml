@@ -7,16 +7,20 @@
 
     <fragment
         android:id="@+id/mainFragment"
-        android:name="com.mmaquera.showmovies.ui.main.movies.MainFragment"
-        android:label="fragment_main"
-        tools:layout="@layout/fragment_main" >
+        android:name="com.mmaquera.showmovies.ui.main.view.MainFragment"
+        android:label="@string/movies"
+        tools:layout="@layout/fragment_main">
         <action
-            android:id="@+id/action_mainFragment_to_detailFragment"
-            app:destination="@id/detailFragment" />
+            android:id="@+id/action_mainFragment_to_movieActivity"
+            app:destination="@id/movieActivity" />
     </fragment>
-    <fragment
-        android:id="@+id/detailFragment"
-        android:name="com.mmaquera.showmovies.ui.main.detail.DetailFragment"
-        android:label="fragment_detail"
-        tools:layout="@layout/fragment_detail" />
+    <activity
+        android:id="@+id/movieActivity"
+        android:name="com.mmaquera.showmovies.ui.movie.MovieActivity"
+        android:label="activity_movie"
+        tools:layout="@layout/activity_movie" >
+        <argument
+            android:name="id"
+            app:argType="integer" />
+    </activity>
 </navigation>
