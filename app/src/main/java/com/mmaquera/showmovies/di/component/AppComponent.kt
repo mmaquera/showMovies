@@ -8,6 +8,7 @@ import com.mmaquera.showmovies.di.module.StorageModule
 import com.mmaquera.showmovies.di.module.ViewModelModule
 import com.mmaquera.showmovies.di.subcomponents.LoginComponent
 import com.mmaquera.showmovies.di.subcomponents.MainComponent
+import com.mmaquera.showmovies.di.subcomponents.MovieComponent
 import dagger.BindsInstance
 import dagger.Component
 
@@ -30,6 +31,7 @@ interface AppComponent {
 
     fun loginComponent(): LoginComponent.Factory
     fun mainComponent(): MainComponent.Factory
+    fun movieComponent(): MovieComponent.Factory
 
-    fun glideSettingsUrl() : GlideSettingsUrl
+    fun glideSettingsUrl(): GlideSettingsUrl
 }

@@ -11,4 +11,7 @@
     <string name="title">Titulo</string>
     <string name="date">Fecha</string>
     <string name="popularity">Popularidad</string>
+    <string name="description">Descripción</string>
+    <string name="cast">Elenco</string>
+    <string name="reviews">Comentarios</string>
 </resources>

@@ -4,6 +4,7 @@ import androidx.lifecycle.ViewModel
 import com.mmaquera.showmovies.di.annotation.ViewModelKey
 import com.mmaquera.showmovies.ui.login.LoginViewModel
 import com.mmaquera.showmovies.ui.main.MainViewModel
+import com.mmaquera.showmovies.ui.movie.MovieViewModel
 import dagger.Binds
 import dagger.Module
 import dagger.multibindings.IntoMap
@@ -20,4 +21,9 @@ abstract class ViewModelModule{
     @IntoMap
     @ViewModelKey(MainViewModel::class)
     abstract fun bindMainViewModel(viewModel: MainViewModel) : ViewModel
+
+    @Binds
+    @IntoMap
+    @ViewModelKey(MovieViewModel::class)
+    abstract fun bindMovieViewModel(viewModel: MovieViewModel) : ViewModel
 }

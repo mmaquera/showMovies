@@ -8,43 +8,4 @@
         app:actionViewClass="androidx.appcompat.widget.SearchView"
         app:showAsAction="always|collapseActionView" />
 
-<!--
-    <item
-        android:icon="@drawable/ic_more_vert_white_24dp"
-        android:title=""
-        app:showAsAction="ifRoom">
-        <menu>
-            <item
-                android:id="@+id/menu_title_asc"
-                android:icon="@drawable/ic_keyboard_arrow_up_24px"
-                android:title="@string/title"
-                app:showAsAction="ifRoom" />
-            <item
-                android:id="@+id/menu_title_desc"
-                android:icon="@drawable/ic_keyboard_arrow_down_24px"
-                android:title="@string/title"
-                app:showAsAction="ifRoom" />
-            <item
-                android:id="@+id/menu_date_asc"
-                android:icon="@drawable/ic_keyboard_arrow_up_24px"
-                android:title="@string/date"
-                app:showAsAction="ifRoom" />
-            <item
-                android:id="@+id/menu_date_desc"
-                android:icon="@drawable/ic_keyboard_arrow_down_24px"
-                android:title="@string/date"
-                app:showAsAction="ifRoom" />
-            <item
-                android:id="@+id/menu_popularity_asc"
-                android:icon="@drawable/ic_keyboard_arrow_up_24px"
-                android:title="@string/popularity"
-                app:showAsAction="ifRoom" />
-            <item
-                android:id="@+id/menu_popularity_desc"
-                android:icon="@drawable/ic_keyboard_arrow_down_24px"
-                android:title="@string/popularity"
-                app:showAsAction="ifRoom" />
-        </menu>
-    </item>
--->
 </menu>

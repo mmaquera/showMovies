@@ -2,7 +2,9 @@ package com.mmaquera.showmovies.data.network
 
 import com.mmaquera.showmovies.domain.Credentials
 import com.mmaquera.showmovies.domain.Movie
+import com.mmaquera.showmovies.domain.MovieDetail
 import retrofit2.http.GET
+import retrofit2.http.Path
 import retrofit2.http.Query
 
 interface ApiService {
@@ -19,4 +21,7 @@ interface ApiService {
         @Query("sort") sort: String,
         @Query("page") page: Int
     ): List<Movie>
+
+    @GET("movies/{id}")
+    suspend fun getMovie(@Path("id") id: Int): MovieDetail
 }
