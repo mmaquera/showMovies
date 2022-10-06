@@ -37,7 +37,7 @@ class NetworkModule {
     ): Retrofit {
         return Retrofit
             .Builder()
-            .baseUrl("https://dev-candidates.wifiesta.com/")
+            .baseUrl("")
             .addConverterFactory(gsonConverterFactory)
             .client(okHttpClient)
             .build()
